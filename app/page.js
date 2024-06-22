@@ -23,7 +23,7 @@ export default function Home() {
                   href='/demo'
                   className='bg-bybikeBlue p-4 rounded-lg text-white'
                 >
-                  REQUEST A DEMO zartuzrt
+                  REQUEST A ABC zartuzrt
                 </Link>
               </div>
             </div>
