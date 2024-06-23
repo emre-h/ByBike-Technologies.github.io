@@ -11,19 +11,19 @@ export default function Home() {
           <div className='flex flex-col sm:flex-row gap-12 justify-between'>
             <div className='flex flex-col'>
               <h2 className='text-6xl sm:text-5xl md:text-6xl lg:text-7xl text-white font-medium'>
-                EMRE <br />
-                DENEME <br />
-                X
+                BUILD <br />
+                DEPLOY <br />
+                MANAGE
               </h2>
               <div>
                 <h3 className='text-white text-2xl sm:text-base my-12 sm:my-8'>
-                  All in one micromobility solutions zartzurt.
+                  All in one micromobility solutions.
                 </h3>
                 <Link
                   href='/demo'
                   className='bg-bybikeBlue p-4 rounded-lg text-white'
                 >
-                  REQUEST A ABC zartuzrt
+                  REQUEST A DEMO
                 </Link>
               </div>
             </div>
