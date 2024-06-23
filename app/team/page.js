@@ -15,7 +15,7 @@ const page = () => {
 
       <section>
         <h2 className='tracking-wider text-center mt-14 text-4xl font-medium'>
-          LEADS
+          Team
         </h2>
         <hr className='border border-bybikeBlue mt-4 mb-14' />
 
@@ -31,153 +31,49 @@ const page = () => {
           </div>
           <div className='flex flex-col items-center'>
             <div className='w-40 md:w-60 lg:w-80 aspect-square rounded-lg overflow-hidden bg-[#585858] mb-2'>
-              <img src='/picture_emre_h.png' alt='EMRE' />
+              <img src='/uyanik.jpeg' alt='EMRE' />
             </div>
             <h2 className='text-sm sm:text-base font-medium'>
-              Emre Harbutoğlu
+              Burak Uyanık
             </h2>
             <h3 className='text-xs text-center sm:text-base'>
-              Chief Technical Officer
+              Backend Developer
             </h3>
           </div>
           <div className='flex flex-col items-center'>
             <div className='w-40 md:w-60 lg:w-80 aspect-square rounded-lg overflow-hidden bg-[#585858] mb-2'>
-              <img src='/picture_eren.png' alt='EREN' />
+              <img src='/ibrahimtan.png' alt='EREN' />
             </div>
-            <h2 className='text-sm sm:text-base font-medium'>Eren Dağsuyu</h2>
+            <h2 className='text-sm sm:text-base font-medium'>İbrahim Tan</h2>
             <h3 className='text-xs text-center sm:text-base'>
-              Chief Operation Officer
+              Backend Developer
             </h3>
           </div>
           <div className='flex flex-col sm:hidden items-center'>
             <div className='w-40 md:w-60 lg:w-80 aspect-square rounded-lg overflow-hidden bg-[#585858] mb-2'>
               <img src='/picture_emre.png' alt='EMRE ASLAN' />
             </div>
-            <h2 className='text-sm sm:text-base font-medium'>Emre Aslan</h2>
+            <h2 className='text-sm sm:text-base font-medium'>Berkin Özdemir</h2>
             <h3 className='text-xs text-center sm:text-base'>
-              Research and Development Manager
+              Frontend and Mobile (Flutter) Developer
             </h3>
           </div>
         </div>
         <div className='sm:flex justify-center hidden'>
           <div className='flex flex-col items-center'>
             <div className='w-40 md:w-60 lg:w-80 aspect-square rounded-lg overflow-hidden bg-[#585858] mb-2'>
-              <img src='/picture_emre.png' alt='EMRE ASLAN' />
+              <img src='/berkin.jpeg' alt='EMRE ASLAN' />
             </div>
-            <h2 className='text-sm sm:text-base font-medium'>Emre Aslan</h2>
+            <h2 className='text-sm sm:text-base font-medium'>Berkin Özdemir</h2>
             <h3 className='text-xs text-center sm:text-base'>
-              Research and Development Manager
+              Frontend and Mobile (Flutter) Developer
+              <br></br>
             </h3>
           </div>
+          
         </div>
-      </section>
-      <section>
-        <h2 className='tracking-wider text-center mt-14 text-4xl font-medium'>
-          TEAM
-        </h2>
-        <hr className='border border-bybikeRed' />
-        <div className='grid grid-cols-2 sm:grid-cols-3 gap-8 py-10'>
-          <div className='flex flex-col items-center'>
-            <div className='w-40 md:w-60 lg:w-80 aspect-square rounded-lg overflow-hidden bg-[#585858] mb-2'>
-              <img src='/picture_berkay.png' alt='BERKAY' />
-            </div>
-            <h2 className='text-sm sm:text-base font-medium'>Berkay Şenyüz</h2>
-            <h3 className='text-xs text-center sm:text-base'>
-              Content Management Specialist
-            </h3>
-          </div>
-          <div className='flex flex-col items-center'>
-            <div className='w-40 md:w-60 lg:w-80 aspect-square rounded-lg overflow-hidden bg-[#585858] mb-2'>
-              <img src='/picture_ata.png' alt='ATA' />
-            </div>
-            <h2 className='text-sm sm:text-base font-medium'>
-              Ata Çorumluoğlu
-            </h2>
-            <h3 className='text-xs text-center sm:text-base'>
-              Mechanical Engineer
-            </h3>
-          </div>
-          <div className='flex flex-col items-center'>
-            <div className='w-40 md:w-60 lg:w-80 aspect-square rounded-lg overflow-hidden bg-[#585858] mb-2'>
-              <img src='/picture_cagan.png' alt='CAGAN' />
-            </div>
-            <h2 className='text-sm sm:text-base font-medium'>Çağan Kutlay</h2>
-            <h3 className='text-xs text-center sm:text-base'>
-              Mechanical Engineer
-            </h3>
-          </div>
-          <div className='flex flex-col items-center'>
-            <div className='w-40 md:w-60 lg:w-80 aspect-square rounded-lg overflow-hidden bg-[#585858] mb-2'>
-              <img src='/picture_egehan.png' alt='EGEHAN' />
-            </div>
-            <h2 className='text-sm sm:text-base font-medium'>Egehan Ceylan</h2>
-            <h3 className='text-xs text-center sm:text-base'>
-              Electronic Design Intern
-            </h3>
-          </div>
-          <div className='flex flex-col items-center'>
-            <div className='w-40 md:w-60 lg:w-80 aspect-square rounded-lg overflow-hidden bg-[#585858] mb-2'>
-              <img src='/picture_tolga.png' alt='TOLGA' />
-            </div>
-            <h2 className='text-sm sm:text-base font-medium'>
-              Tolga Selimoğlu
-            </h2>
-            <h3 className='text-xs text-center sm:text-base'>
-              Mechatronics Engineer
-            </h3>
-          </div>
-          <div className='flex flex-col items-center'>
-            <div className='w-40 md:w-60 lg:w-80 aspect-square rounded-lg overflow-hidden bg-[#585858] mb-2'>
-              <img src='/picture_abdullah.png' alt='ABDULLAH' />
-            </div>
-            <h2 className='text-sm sm:text-base font-medium'>
-              Abdullah Belikırık
-            </h2>
-            <h3 className='text-xs text-center sm:text-base'>
-              Embedded Developer
-            </h3>
-          </div>
-          <div className='flex flex-col items-center'>
-            <div className='w-40 md:w-60 lg:w-80 aspect-square rounded-lg overflow-hidden bg-[#585858] mb-2'>
-              <img src='/picture_javad.png' alt='JAVAD' />
-            </div>
-            <h2 className='text-sm sm:text-base font-medium'>Javad Khalilov</h2>
-            <h3 className='text-xs text-center sm:text-base'>
-              Mobile Developer
-            </h3>
-          </div>
-          <div className='flex flex-col items-center'>
-            <div className='w-40 md:w-60 lg:w-80 aspect-square rounded-lg overflow-hidden bg-[#585858] mb-2'>
-              <img src='/picture_vusal.png' alt='VUSAL' />
-            </div>
-            <h2 className='text-sm sm:text-base font-medium'>
-              Vusal İsmayilov
-            </h2>
-            <h3 className='text-xs text-center sm:text-base'>
-              Backend Developer
-            </h3>
-          </div>
-          <div className='sm:flex hidden flex-col items-center'>
-            <div className='w-40 md:w-60 lg:w-80 aspect-square rounded-lg overflow-hidden bg-[#585858] mb-2'>
-              <img src='/picture_gokdeniz.png' alt='GOKDENIZ' />
-            </div>
-            <h2 className='text-sm sm:text-base font-medium'>Gökdeniz Çakır</h2>
-            <h3 className='text-xs text-center sm:text-base'>
-              Frontend Developer
-            </h3>
-          </div>
-        </div>
-        <div className='justify-center mb-10 flex sm:hidden'>
-          <div className='flex flex-col items-center'>
-            <div className='w-40 md:w-60 lg:w-80 aspect-square rounded-lg overflow-hidden bg-[#585858] mb-2'>
-              <img src='/picture_gokdeniz.png' alt='GOKDENIZ' />
-            </div>
-            <h2 className='text-sm sm:text-base font-medium'>Gökdeniz Çakır</h2>
-            <h3 className='text-xs text-center sm:text-base'>
-              Frontend Developer
-            </h3>
-          </div>
-        </div>
+
+         
       </section>
     </main>
   );
