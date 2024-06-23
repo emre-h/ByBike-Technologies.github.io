@@ -42,7 +42,7 @@ const page = () => {
           </div>
           <div className='flex flex-col items-center'>
             <div className='w-40 md:w-60 lg:w-80 aspect-square rounded-lg overflow-hidden bg-[#585858] mb-2'>
-              <img src='/ibrahimtan.png' alt='EREN' />
+              <img src='/ibrahimtan.jpeg' alt='EREN' />
             </div>
             <h2 className='text-sm sm:text-base font-medium'>İbrahim Tan</h2>
             <h3 className='text-xs text-center sm:text-base'>
@@ -51,7 +51,7 @@ const page = () => {
           </div>
           <div className='flex flex-col sm:hidden items-center'>
             <div className='w-40 md:w-60 lg:w-80 aspect-square rounded-lg overflow-hidden bg-[#585858] mb-2'>
-              <img src='/picture_emre.png' alt='EMRE ASLAN' />
+              <img src='/berkin.jpeg' alt='EMRE ASLAN' />
             </div>
             <h2 className='text-sm sm:text-base font-medium'>Berkin Özdemir</h2>
             <h3 className='text-xs text-center sm:text-base'>
